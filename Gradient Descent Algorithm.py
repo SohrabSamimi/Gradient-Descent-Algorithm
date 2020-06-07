@@ -1,11 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun May 31 20:57:06 2020
 
-@author: Sohrab
-
-
-"""
 
 import numpy as np
 import random
@@ -75,9 +68,3 @@ print(m)
 #As we see the solution is very close to the vector o,which is the theoretical solution. 
 #Let us compute the value of the function at this minimum:
 print(shifted_sphere(m))
-
-
-
-
-
-    
