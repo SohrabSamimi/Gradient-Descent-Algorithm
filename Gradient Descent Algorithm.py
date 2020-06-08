@@ -52,9 +52,7 @@ l
 def grad_desc(func,bound,epsilon,n,lr=0.5):
     x0=np.array([random.uniform(-bound,bound) for i in range(n)])
     grad_func=grad(func,x0)
-    norm_grad=math.sqrt(square(grad_func))
-    counter=0
-    my_list=[]
+    norm_grad=math.sqrt(square(grad_func)
     while norm_grad>epsilon:
         x0=x0-lr*grad_func
         grad_func=grad(func,x0)
